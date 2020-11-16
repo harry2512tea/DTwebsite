@@ -7,8 +7,8 @@
 	height: 4rem;
 	font-size: 25;
 	border-radius: 25px;
-	border-style: solid;
 	border-width: 5px;
+	border-color: #00e0d9;
 	padding-top: 0.5rem;
 	width: 80%;
 	margin-left: 10%;
@@ -59,12 +59,29 @@
 #mainBody
 {
 	float: left;
-	width: 74%;
+	width: 72%;
 	height: 90%;
 	background-color: #333333;
 	margin-left: 13%;
 	border-radius: 40px;
+	border-style: double;
+	border-width: 1%;
+	border-color: #00e0d9;
+	padding: 1rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer
+{
+	float: left;
+	width: 95.5%;
+	height: 8rem;
+	background-color: #2e2e2e;
+	border-style: solid;
+	border-width: 5px 5px 0px 5px;
+	border-radius: 40px 40px 0px 0px;
+	margin-top: 2rem;
+	padding: 2%;
 }
 
 #contact
@@ -73,7 +90,7 @@
 	font-size: 25px;
 	padding: 32px 8px 8px 32px;
 	display: block;
-	transition: width 0.5s;
+	transition: width 1s;
 }
 
 .leftsideNav
@@ -90,7 +107,7 @@
 	padding-top: 60px
 	margin-right: 80%;
 	border-radius: 0px 25px 25px 0px;
-	transition: height 0.5s;
+	transition: height 1s;
 }
 
 .leftsideNav a
@@ -100,7 +117,7 @@
 	font-size: 25px;
 	color: #818181;
 	display: block;
-	transition: width 0.5s;
+	transition: width 1s;
 }
 
 .leftsideNav a:hover
@@ -131,7 +148,5 @@
 	padding-top: 60px
 	margin-left: 80%;
 	border-radius: 25px 0px 0px 25px;
-	transition: height 0.5s;
+	transition: height 1s;
 }
-
-
